@@ -1,0 +1,42 @@
+.header {
+  position: relative;
+  z-index: 2;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7); /* Default dark color */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  padding: 0.8rem 0;
+  align-content: center;
+}
+
+.navbar-dark-scrolled {
+  background-color: rgba(0, 0, 0, 0.9); /* Darker color when scrolled */
+}
+
+.navbar .container {
+  max-width: 100vw;
+}
+
+.navbar-collapse .navbar-nav {
+  position: relative;
+}
+
+.navbar-brand{
+  justify-self: center;
+}
+
+.navbar-brand .logo-img {
+  height: 50px;
+}
+
+.nav-item {
+  position: relative;
+  padding-left: 0.7em;
+  font: normal normal normal 20px/24px Roboto;
+  padding-right: 0.7em;
+}
+
+.nav-link {
+  color: #fffffff2 !important;
+}
